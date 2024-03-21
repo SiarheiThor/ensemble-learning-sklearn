@@ -8,7 +8,7 @@ from PIL import Image
 # Use st.cache_resource to load and cache the model globally
 @st.cache_resource
 def load_model():
-    model = joblib.load('trained_models/stacking_clf.joblib')
+    model = joblib.load('trained_models/svm_clf_final_augmented.joblib')
     return model
 
 model = load_model()
