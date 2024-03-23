@@ -1,6 +1,6 @@
 joblib==1.2.0
 numpy==1.26.4
-opencv_python==4.9.0.80
+opencv-python-headless==4.9.0.80
 Pillow==10.2.0
 scikit-image==0.22.0
 streamlit==1.29.0
